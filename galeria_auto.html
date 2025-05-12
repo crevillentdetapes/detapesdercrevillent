@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Galería de tapas</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #f4f4f4; margin: 0; }
+        h1 { text-align: center; margin: 40px 0; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 20px; }
+        .item { background: white; border-radius: 10px; overflow: hidden; }
+        .item img { width: 100%; height: auto; max-width: 1000px; display: block; cursor: pointer; }
+        .caption { padding: 10px; text-align: center; font-size: 14px; color: #333; }
+        .volver-mapa {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #fff;
+            color: #333;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            z-index: 10;
+            transition: background 0.2s;
+        }
+        .volver-mapa:hover {
+            background: #f4f4f4;
+        }
+        #lightbox {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.95); display: none;
+            justify-content: center; align-items: center;
+            flex-direction: column; z-index: 1000;
+        }
+        #lightbox img {
+            width: 100%; /* Ajustar al ancho de la pantalla */
+            height: auto; /* Mantener proporción */
+            max-height: 90vh; /* Limitar altura máxima */
+            object-fit: contain;
+        }
+        .nav-button {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            background: rgba(255,255,255,0.2); color: white; font-size: 3em;
+            border: none; padding: 10px 20px; cursor: pointer; z-index: 1001;
+        }
+        .nav-button:hover { background: rgba(255,255,255,0.4); }
+        #prev { left: 10px; }
+        #next { right: 10px; }
+    </style>
+</head>
+<body>
+    <a class="volver-mapa" href="index.html">&larr; Volver al mapa</a>
+    <h1>Galería Automática<br>De tapes per Crevillent</h1>
+    <div class='gallery'>
+
+            <div class='item'>
+                <img src='imagenes/imagen_1.jpg' alt='Imagen del mapa' onclick='openLightbox(0)'>
+                <div class='caption'>
+                    <strong>Cartagena</strong><br>
+                    <a href='https://www.google.com/maps/search/?api=1&query=38.24766,-0.802136' target='_blank'>Passeig D'Elx, Crevillent</a>
+                </div>
+            </div>
+            
+            <div class='item'>
+                <img src='imagenes/imagen_2.jpg' alt='Imagen del mapa' onclick='openLightbox(1)'>
+                <div class='caption'>
+                    <strong>Elche</strong><br>
+                    <a href='https://www.google.com/maps/search/?api=1&query=38.251805,-0.811994' target='_blank'>Carrer Molins, Crevillent</a>
+                </div>
+            </div>
+            
+            <div class='item'>
+                <img src='imagenes/imagen_3.jpg' alt='Imagen del mapa' onclick='openLightbox(2)'>
+                <div class='caption'>
+                    <strong>Elche</strong><br>
+                    <a href='https://www.google.com/maps/search/?api=1&query=38.2469981,-0.8097657' target='_blank'>Carrer de Guillem Magro, Crevillent</a>
+                </div>
+            </div>
+            
+            <div class='item'>
+                <img src='imagenes/imagen_4.jpg' alt='Imagen del mapa' onclick='openLightbox(3)'>
+                <div class='caption'>
+                    <strong>Elche</strong><br>
+                    <a href='https://www.google.com/maps/search/?api=1&query=38.2472129,-0.8097095' target='_blank'>Carrer de Guillem Magro, Crevillent</a>
+                </div>
+            </div>
+            
+            <div class='item'>
+                <img src='imagenes/imagen_5.jpg' alt='Imagen del mapa' onclick='openLightbox(4)'>
+                <div class='caption'>
+                    <strong>Elche</strong><br>
+                    <a href='https://www.google.com/maps/search/?api=1&query=38.2474094,-0.8096294' target='_blank'>Carrer de Guillem Magro, Crevillent</a>
+                </div>
+            </div>
+            
+            <div class='item'>
+                <img src='imagenes/imagen_6.jpg' alt='Imagen del mapa' onclick='openLightbox(5)'>
+                <div class='caption'>
+                    <strong>Elche</strong><br>
+                    <a href='https://www.google.com/maps/search/?api=1&query=38.2475241,-0.8094858' target='_blank'>Crevillent</a>
+                </div>
+            </div>
+            
+            <div class='item'>
+                <img src='imagenes/imagen_7.jpg' alt='Imagen del mapa' onclick='openLightbox(6)'>
+                <div class='caption'>
+                    <strong>Alicante</strong><br>
+                    <a href='https://www.google.com/maps/search/?api=1&query=38.2516049,-0.8118347' target='_blank'>Carrer Molins, Crevillent</a>
+                </div>
+            </div>
+            
+    </div>
+    <div id='lightbox' onclick='closeLightbox(event)'>
+        <button class='nav-button' id='prev' onclick='prevImage(event)'>&#10094;</button>
+        <img id='lightbox-img' src=''>
+        <button class='nav-button' id='next' onclick='nextImage(event)'>&#10095;</button>
+    </div>
+    <script>
+        const images = [
+"imagenes/imagen_1.jpg",
+"imagenes/imagen_2.jpg",
+"imagenes/imagen_3.jpg",
+"imagenes/imagen_4.jpg",
+"imagenes/imagen_5.jpg",
+"imagenes/imagen_6.jpg",
+"imagenes/imagen_7.jpg"];
+
+        let currentIndex = 0;
+
+        function openLightbox(index) {
+            currentIndex = index;
+            const lightbox = document.getElementById("lightbox");
+            const img = document.getElementById("lightbox-img");
+            img.src = images[currentIndex];
+            lightbox.style.display = "flex";
+        }
+
+        function closeLightbox(e) {
+            if (e.target.id === "lightbox" || e.target.tagName === "IMG") {
+                document.getElementById("lightbox").style.display = "none";
+            }
+        }
+
+        function prevImage(e) {
+            e.stopPropagation();
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            document.getElementById("lightbox-img").src = images[currentIndex];
+        }
+
+        function nextImage(e) {
+            e.stopPropagation();
+            currentIndex = (currentIndex + 1) % images.length;
+            document.getElementById("lightbox-img").src = images[currentIndex];
+        }
+    </script>
+</body>
+</html>

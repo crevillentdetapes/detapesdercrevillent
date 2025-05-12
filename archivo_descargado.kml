@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Crevillent de tapes</name>
+    <description/>
+    <Style id="icon-1729-9C27B0-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1729-9C27B0-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1729-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1729-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1729-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1729-AFB42B-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1729-AFB42B-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1729-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1729-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1729-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1729-FF5252-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1729-FF5252-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1729-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1729-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1729-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-006064-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-006064-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-006064">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-006064-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-006064-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0097A7-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0097A7-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-4E342E-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-4E342E-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-4E342E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-4E342E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-4E342E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-673AB7-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-673AB7-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-673AB7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-673AB7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-673AB7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F9A825-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Alcantarillas Crevillent</name>
+      <Placemark>
+        <name>Cartagena</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvex_AZ-3wj_0pZeqeAi_LYFsL9b7nzqxucVb-jQTZCijNOiT66q78iR-tyzLBwPFRtZMCifTCN2mZMza9xW_mqzVu2MT77n2UEAoEiuhCQx9jT370syQWjH2rBdVUJtvQKV9yPB_UovTObbC4WPJl3zxgpwcCltk0Oh2ZC4L3wxxBtEwdKbsORZ3jmdln3jzf3n4fA1F4M-mPEDwx5GRejgv_EW72t_n38v91KCD583X9aWtPvZ_0eyno?fife=s16383" height="200" width="auto" /><br><br>Cartagena]]></description>
+        <styleUrl>#icon-1729-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvex_AZ-3wj_0pZeqeAi_LYFsL9b7nzqxucVb-jQTZCijNOiT66q78iR-tyzLBwPFRtZMCifTCN2mZMza9xW_mqzVu2MT77n2UEAoEiuhCQx9jT370syQWjH2rBdVUJtvQKV9yPB_UovTObbC4WPJl3zxgpwcCltk0Oh2ZC4L3wxxBtEwdKbsORZ3jmdln3jzf3n4fA1F4M-mPEDwx5GRejgv_EW72t_n38v91KCD583X9aWtPvZ_0eyno?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.802136,38.24766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elche ff</name>
+        <description>visto en google maps, falta foto</description>
+        <styleUrl>#icon-1899-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -0.813722,38.25031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elche</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvl02-xHM4DloYe1zxGoA_gMGQpfDnPO8Rq6nhm8qDwoK3GftVAUn7Eo0ne4Ep3lAz5sZoYmKyzErDntWlQjtbfUDF47xOtP6VCaQ6DfQ7cwyKAjr9TJU0AKvQhd25zPAiVcyBLAZgnhl9iO9JE1y5lxZEWg5gbq-kosNhoKd1iNGtq-3j1ZbCwYoOcEq7xFSNLv7eVCCynPDAB9OTnQuz-qN_aofplnjPcwJQZac0E4CrkUrn-cBb6VJE?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1729-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvl02-xHM4DloYe1zxGoA_gMGQpfDnPO8Rq6nhm8qDwoK3GftVAUn7Eo0ne4Ep3lAz5sZoYmKyzErDntWlQjtbfUDF47xOtP6VCaQ6DfQ7cwyKAjr9TJU0AKvQhd25zPAiVcyBLAZgnhl9iO9JE1y5lxZEWg5gbq-kosNhoKd1iNGtq-3j1ZbCwYoOcEq7xFSNLv7eVCCynPDAB9OTnQuz-qN_aofplnjPcwJQZac0E4CrkUrn-cBb6VJE?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.811994,38.251805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catral ff</name>
+        <description>visto en google maps, falta foto, detras de la fuente</description>
+        <styleUrl>#icon-1899-673AB7</styleUrl>
+        <Point>
+          <coordinates>
+            -0.8091957,38.2488776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alcoy ff</name>
+        <description>? dudoso visto en google maps, falta foto</description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            -0.807854,38.250887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elche ff</name>
+        <description>(los palmerales) Visto en google maps, falta foto</description>
+        <styleUrl>#icon-1899-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -0.807548,38.250542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alicante ff</name>
+        <description>visto en maps, falta foto</description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -0.811006,38.250315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Albatera ff</name>
+        <description>? ilegible visto en maps, falta foto</description>
+        <styleUrl>#icon-1899-006064</styleUrl>
+        <Point>
+          <coordinates>
+            -0.809391,38.250876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murcia ff</name>
+        <description>? dudoso. visto en google maps, falta foto, no se ve bien</description>
+        <styleUrl>#icon-1899-4E342E</styleUrl>
+        <Point>
+          <coordinates>
+            -0.807634,38.249554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elche ff</name>
+        <description>visto en maps, falta foto</description>
+        <styleUrl>#icon-1899-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -0.805776,38.252168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elche</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvYkSsmrwdRna6mmzCCn0C9gdlFWTif4qn5m9yym5SCZvvzETvEbfNzntYw_b1GemJmZiJTkdgx_eaTYg3fJrFJ1h_nq6nfO19JTTQ8_I581gpAmD-Ee-bfv8volfOGVyr4riJYejnN_6W6ZJJGij-hZtUZQ_IOA-WCMjRV0VuVbD3p6poMlIREutxYVAzozgXsJj3CHnOFAg2H_PRfqSA-ClRq8P2zmM1XdLA1MjZYf1RFrnN9beKgWDk?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1729-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvYkSsmrwdRna6mmzCCn0C9gdlFWTif4qn5m9yym5SCZvvzETvEbfNzntYw_b1GemJmZiJTkdgx_eaTYg3fJrFJ1h_nq6nfO19JTTQ8_I581gpAmD-Ee-bfv8volfOGVyr4riJYejnN_6W6ZJJGij-hZtUZQ_IOA-WCMjRV0VuVbD3p6poMlIREutxYVAzozgXsJj3CHnOFAg2H_PRfqSA-ClRq8P2zmM1XdLA1MjZYf1RFrnN9beKgWDk?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.8097657,38.2469981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elche</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKueRPp0uWFlPp0rWLZ_yQ2GULmJHtI_9byQ38us3Nk_G7njhy4Gevr_tCep_jul7OnYYpqFwP4CgbfYAYacvgQN8flf3tGGtI0nhDXqrIR7_Yjqj5yqflqGE3PWOYGI8Um9JFK6r3iJ323kZtg5Da84ISIzNFUz2KVgb6OLAJG2goAyvzTiOypr0GZRnlKZqOVgKYTMFuIWmuNekKuf3Yqz5vOt2f_Pa-tyqYtn5_7WfJ7PvdFxs4RPJrY?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1729-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKueRPp0uWFlPp0rWLZ_yQ2GULmJHtI_9byQ38us3Nk_G7njhy4Gevr_tCep_jul7OnYYpqFwP4CgbfYAYacvgQN8flf3tGGtI0nhDXqrIR7_Yjqj5yqflqGE3PWOYGI8Um9JFK6r3iJ323kZtg5Da84ISIzNFUz2KVgb6OLAJG2goAyvzTiOypr0GZRnlKZqOVgKYTMFuIWmuNekKuf3Yqz5vOt2f_Pa-tyqYtn5_7WfJ7PvdFxs4RPJrY?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.8097095,38.2472129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elche</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsqK1jxIOhZr5ljws54lKnepB32fwzg0J2UwkcHd9xpvHMSIvzXNVYOU-gx2GriluYQLj7a1QU8K7vby_dCkUb8oNny-3LX1Uo53QGkiOaWYAh-xCFmHLsD53PJz02eEGoYfhtSKxB6lpY2g_cyygnnaV7UiC02LdLv_nBqBwqM6wi2FVn2W2gUgk15L6Uvol3bz8l2tOUVp3jtgB35QZBDE0H6le0qb3O42ALDs5TpmHVgrtDqpVvKoGI?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1729-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsqK1jxIOhZr5ljws54lKnepB32fwzg0J2UwkcHd9xpvHMSIvzXNVYOU-gx2GriluYQLj7a1QU8K7vby_dCkUb8oNny-3LX1Uo53QGkiOaWYAh-xCFmHLsD53PJz02eEGoYfhtSKxB6lpY2g_cyygnnaV7UiC02LdLv_nBqBwqM6wi2FVn2W2gUgk15L6Uvol3bz8l2tOUVp3jtgB35QZBDE0H6le0qb3O42ALDs5TpmHVgrtDqpVvKoGI?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.8096294,38.2474094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elche</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuwKLYPRzvJUVvGLz1WECUKxcHDDcWQai-mPrEhuZ1DE7F9nnOwW0uzVpHl6g3QQdW4XkkxUv6Ur7NATrKp7OSVn-Xy9tGZfVp0ztfsDgxUFMGqaBylZnmeBET__rhDlXC0TukDbrFAplORwMz-96au60x3s7gRUClMaHwaQ9uSSP6sKxkdHg9m5C4X0sd7lhT-JVaVZPoNT-aLa8NQ6nKfOE1tbig2PpZis2bNkjd2TnSgjznoDCHX95Q?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1729-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuwKLYPRzvJUVvGLz1WECUKxcHDDcWQai-mPrEhuZ1DE7F9nnOwW0uzVpHl6g3QQdW4XkkxUv6Ur7NATrKp7OSVn-Xy9tGZfVp0ztfsDgxUFMGqaBylZnmeBET__rhDlXC0TukDbrFAplORwMz-96au60x3s7gRUClMaHwaQ9uSSP6sKxkdHg9m5C4X0sd7lhT-JVaVZPoNT-aLa8NQ6nKfOE1tbig2PpZis2bNkjd2TnSgjznoDCHX95Q?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.8094858,38.2475241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valencia ff</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.80358,38.240973,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valencia ff</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.803687,38.240944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valencia ff</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.803876,38.240803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alicante</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKv_t_QYe0BQVCD2gEGCtJRqRPtiU2w3qMfjr6uKjw9Obv7ErmSVQce8uVRjI4yYzs0eyjm6d7G8waCHVuzHu_lFxweoeC3l0dyJmRsFlhYf4WcQRRM-UvYLKvJHcspkx9JjKRS_3IMX-SHTdEDspxyg3_F6fpk1yY8IhwFHDjKdbUIYuA37ZNAPd2TC74c6USFAK--_xOPV_9BllNc12pr-hBbdeM96CfyxSumn__laU34a7ALCAqbrXMQ?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1729-AFB42B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKv_t_QYe0BQVCD2gEGCtJRqRPtiU2w3qMfjr6uKjw9Obv7ErmSVQce8uVRjI4yYzs0eyjm6d7G8waCHVuzHu_lFxweoeC3l0dyJmRsFlhYf4WcQRRM-UvYLKvJHcspkx9JjKRS_3IMX-SHTdEDspxyg3_F6fpk1yY8IhwFHDjKdbUIYuA37ZNAPd2TC74c6USFAK--_xOPV_9BllNc12pr-hBbdeM96CfyxSumn__laU34a7ALCAqbrXMQ?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.8118347,38.2516049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alicante ff</name>
+        <description>Alcantarillado de alicante </description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -0.8129283,38.2527722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

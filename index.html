@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crevillent de Tapes - Mapa</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+            font-family: sans-serif;
+        }
+        .mapa {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+        .enlace-galeria {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #fff;
+            color: #333;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            z-index: 10;
+            transition: background 0.2s;
+        }
+        .enlace-galeria:hover {
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <a class="enlace-galeria" href="galeria_auto.html">Ver galería de tapas</a>
+    <iframe class="mapa"
+        src="https://www.google.com/maps/d/embed?mid=1O8SvvCnUPVh4Hvk_mE4KHCdihdfSBzw&ehbc=2E312F"
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
